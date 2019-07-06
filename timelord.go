@@ -355,12 +355,12 @@ func formatResults(results []City,
 }
 
 func main() {
-	cityFile := "cities.json"
 	indexFile := "cities.bleve"
-	countryFile := "countries.json"
-	airportFile := "airports.json"
-	phoneFile := "phone.json"
-	currencyFile := "currency.json"
+	cityFile := "datasets/cities.json"
+	countryFile := "datasets/countries.json"
+	airportFile := "datasets/airports.json"
+	phoneFile := "datasets/phone.json"
+	currencyFile := "datasets/currency.json"
 	input := strings.Join(os.Args[1:], " ")
 
 	if input == "" {
